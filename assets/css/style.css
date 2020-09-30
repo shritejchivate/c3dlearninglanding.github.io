@@ -618,6 +618,12 @@ margin-top: 300px;
     .object-img .obj2{
         bottom: 320px;
     }
+    .foottextsec {
+      padding-top: 116px;
+    }
+    .foottextsec h1{
+      font-size: 2.0rem;
+    }
 }
 @media (max-width: 1368px) {
   .hexagon-img{
@@ -642,6 +648,12 @@ margin-top: 300px;
 }
 #Activity_sec .resourcetext{
   padding-top: 120px;
+}
+.foottextsec{
+  padding-top: 78px;
+}
+.classroom_text{
+  font-size: 1.8rem;
 }
 }
 
@@ -672,7 +684,7 @@ margin-top: 300px;
   }
   #banner_img .banner_text{
       position: absolute;
-      top: 634px;
+      top: 72%;
       left: 3rem;
       width: auto;
   }
@@ -681,6 +693,26 @@ margin-top: 300px;
     }
     .object-img .obj2{
         bottom: 250px;
+    }
+    #pricing_section .ammount{
+      font-size:1.8rem;
+      }
+    #pricing_section .ammount_1{
+        font-size: 1.0rem;
+    }
+    #pricing_section .inner_sec {
+      padding-left: 40px;
+      padding-top: 25px;
+      padding-right: 0px;
+    }
+    .foottextsec h1 {
+      font-size: 1.6rem;
+    }
+    .foottextsec{
+      padding-top: 50px;
+    }
+    .support-time p{
+      font-size: 1.4rem;
     }
 
 }
@@ -699,6 +731,9 @@ margin-top: 300px;
     left: 0px;
     position: absolute;
   }
+  .foottextsec{
+    padding-top: 40px;
+  }
 }
 
   @media (max-width: 768px) {
@@ -708,7 +743,7 @@ margin-top: 300px;
     }
     #banner_img .banner_text{
       position: absolute;
-      top: 499px;
+      top: 560px;
       left: 3rem;
       width: auto;
     }
@@ -750,11 +785,16 @@ margin-top: 300px;
       padding-right: 130px;
       margin-top: -65px;
     }
+    .footergirlCol{
+      text-align: center;
+    }
     .footergirl{
       margin-top: 30px;
+      max-width: 36%;
     }
     .foottextsec{
       padding-top: 50px;
+      padding-bottom: 0px;
     }
       #pricing_section .classroom_pack {
         margin-top: 40px;
@@ -780,6 +820,33 @@ margin-top: 300px;
   }
   .object-img .obj2{
     display: none;
+  }
+  #c3dCard .card-title{
+    font-size: 1.8rem;
+  }
+  .priceImg_card{
+    max-width: 0%;
+    display: none;
+  }
+
+  #pricing_section .teacher_pack{
+    max-width: 100%;
+  }
+  #pricing_section .classroom_pack{
+    max-width: 100%;
+  }
+  #pricing_section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #pricing_section .ammount{
+    font-size:2.0rem;
+    }
+  #pricing_section .ammount_1{
+      font-size: 1.0rem;
+  }
+  #Activity_sec h2{
+    font-size: 1.5rem;
   }
 }
 
@@ -811,13 +878,7 @@ margin-top: 300px;
   #pricing_section .inner_sec {
     padding-left: 80px;
   }
-  #pricing_section .ammount{
-    font-size:1.8rem;
-    }
-    
-    #pricing_section .ammount_1{
-      font-size: 1.2rem;
-    }
+
     .txtmon{
       font-size: 1.2rem;
       font-weight: 400;
@@ -830,6 +891,10 @@ margin-top: 300px;
   #banner_img{
     background-image: url("../img/template_design_480.png");
     height: 100vh;
+  }
+  #Activity_sec{
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .testimonial2 .testimonial-item p {
     font-size: 0.8rem;
@@ -860,16 +925,28 @@ margin-top: 300px;
   }
   #banner_img .banner_text {
     position: absolute;
-    top: 490px;
+    top: 560px;
     left: 1rem;
     width: auto;
   }
   .foottextsec h1{
-   font-size: 1.8rem;
+   font-size: 1.4rem;
   }
   .foottextsec {
     padding-bottom: 0px;
-  } 
+  }
+  .footer_section .last_sec{
+    padding-left: 0px;
+   }
+   .cylinder_img {
+    max-width: 35%;
+    height: auto;
+    }
+    .bookimg{
+      max-width: 40%;
+      height: auto;
+      text-align: center;
+    }
 }
 
 @media (max-width: 358px) {
@@ -890,5 +967,11 @@ margin-top: 300px;
     }
     #pricing_section .ammount_1{
       font-size: 1.0rem;
+    }
+    .timercounter{
+      font-size: 3rem!important;
+    }
+    .testimonial2 .testimonial-item p{
+      margin: 13px auto 10px auto;
     }
 }
