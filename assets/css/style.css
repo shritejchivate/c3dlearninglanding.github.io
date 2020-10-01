@@ -103,6 +103,8 @@ width: 60%;
   border-radius: 20px;
   box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
   margin-top: -40px;
+  background-color: #F2F2F2;
+
 }
 #c3dCard video{
   border: 5px solid #FFCD03;
@@ -178,9 +180,9 @@ bottom: 400px;
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px;
+  padding: 20px;
   margin: 30px 15px;
-  min-height: 200px;
+  min-height: 300px;
   box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
   position: relative;
   background: rgb(248, 245, 245);
@@ -190,7 +192,7 @@ bottom: 400px;
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
-  margin: -60px 0 0 0px;
+  margin: -50px 0 0 0px;
   position: relative;
   z-index: 2;
 }
@@ -267,11 +269,6 @@ bottom: 400px;
 }
 
 #timer_sec .testimonial-wrap {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-#timer_sec .timer-wrap{
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -369,23 +366,38 @@ bottom: 400px;
   margin-top: -50px;
 }
 
+/*--------------------------------------------------------------
+# teacher section
+--------------------------------------------------------------*/
 
-/* ------bio section---------- */
-#bioSection{
-  padding-left: 50px;
-  padding-right: 50px;
+.teacher_info{
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
-#bioSection .biotext{
-  padding-top: 50px;
-}
-#bioSection .biotext p{
-  font-size: 18px;
-  text-align: justify;
-  color: #000;
-  font-weight: 600;
-  line-height: 1.8rem;
+.teacher_info .icon-box {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 15PX;
 }
 
+.teacher_info .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.teacher_info .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.teacher_info img{
+max-width: 50%;
+}
+.icon-img{
+max-width: 50%;
+}
 
 /* --------------pricing_section--------------- */
 
@@ -634,6 +646,9 @@ margin-top: 300px;
     left: 61px;
     position: absolute;
   }
+  .icon-img{
+    max-width: 60%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -713,6 +728,12 @@ margin-top: 300px;
     }
     .support-time p{
       font-size: 1.4rem;
+    }
+    .text2{
+      font-size: 28px;
+    }
+    .icon-img{
+      max-width: 80%;
     }
 
 }
@@ -848,6 +869,7 @@ margin-top: 300px;
   #Activity_sec h2{
     font-size: 1.5rem;
   }
+
 }
 
 @media (max-width: 767px) {
@@ -973,5 +995,9 @@ margin-top: 300px;
     }
     .testimonial2 .testimonial-item p{
       margin: 13px auto 10px auto;
+    }
+    .teacher_info{
+      padding-left: 0px;
+      padding-right: 0px;
     }
 }
